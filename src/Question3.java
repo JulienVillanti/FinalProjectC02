@@ -1,3 +1,9 @@
+// -----------------------------------------------------
+// Assignment 3 (Final project) - Question 3
+// Written by: Julien Villanti - 2390054
+// The third question was to write a program that uses a method/algorithm to compute all permutations of a string that is taken from the user via the scanner
+// -----------------------------------------------------
+
 import java.util.Scanner;
 
 public class Question3 {

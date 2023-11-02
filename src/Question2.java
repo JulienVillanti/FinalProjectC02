@@ -7,13 +7,11 @@
 import java.util.Scanner;
 
 public class Question2 {
-
     //Creating the method for the strings comparison
     public static String findLongestCommonSubstring(String[] words) {
         if (words == null || words.length < 2) {
             return "";
         }
-
 
         String firstWord = words[0];
         int maxLength = 1;
@@ -37,7 +35,6 @@ public class Question2 {
                 }
             }
         }
-
         return longestCommonSubstring;
     }
 
