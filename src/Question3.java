@@ -14,7 +14,7 @@ public class Question3 {
 
     public static void generatePermutations(String str, int currentIndex) {
         if (currentIndex == str.length() - 1) {
-            System.out.print(", " + str);
+            System.out.print(str + ", ");
             return;
         }
 
